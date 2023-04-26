@@ -1,4 +1,34 @@
-.inputForm{
+body {
+    background: linear-gradient(to bottom right, coral, pink);
+}
+
+.inputForm {
     display: flex;
     flex-direction: column;
+}
+
+.Submit {
+    background-color: peach;
+}
+
+.label {
+    
+    color: black;
+    background-color: rgb(230, 144, 113);
+}
+
+.tit {
+    font-family: Verdana;
+    font-weight: 700;
+    color: black;
+}
+
+.titulos {
+    color: black;
+}
+
+.Submit {
+    color: black;
+    margin-top: 10px;
+    background-color: #Dc7561;
 }
