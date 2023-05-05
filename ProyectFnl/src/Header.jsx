@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Header(){
+export default function Header({titulo}){
 
     return (
-        <div>Header</div>
+        <h1>{titulo}</h1>
     )
 }

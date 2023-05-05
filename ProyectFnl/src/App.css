@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 150vh;
+}

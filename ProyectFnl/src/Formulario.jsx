@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Formulario.css'
 
-export default function Formulario() {
-    const [pacientes, setPacientes] = useState([])
+export default function Formulario({pacientes,setPacientes}) {
+    
     const [mascota, setMascota] = useState("")
     const [dueño, setDueño] = useState("")
     const [fecha, setFecha] = useState("")
