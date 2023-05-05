@@ -1,5 +1,8 @@
 .pacienteContainer{
     background-color: rgb(230, 144, 113);
     border-radius: 50px;
-    max-height: 220px;
+    max-height: 550px;
+}
+.delete{
+    background-color: coral;
 }
